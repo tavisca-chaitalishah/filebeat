@@ -25,7 +25,7 @@ describe 'filebeat::ubuntu' do
 	end
 
 	it 'creates a template with the default action' do
-    	expect(chef_run).to create_template('\etc\filebeat\filebeat.yml')
+    	expect(chef_run).to create_template('/etc/filebeat/filebeat.yml')
 	end
 
 end
