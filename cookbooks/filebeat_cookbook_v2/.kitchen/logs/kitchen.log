@@ -1,0 +1,3 @@
+I, [2017-07-07T14:56:26.704498 #12216]  INFO -- Kitchen: -----> Starting Kitchen (v1.16.0)
+I, [2017-07-07T14:56:29.746998 #12216]  INFO -- Kitchen: -----> Verifying <default-ubuntu-1404>...
+I, [2017-07-07T14:56:30.580998 #12216]  INFO -- Kitchen: -----> Kitchen is finished. (0m3.88s)

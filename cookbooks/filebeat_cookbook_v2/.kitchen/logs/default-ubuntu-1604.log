@@ -1,0 +1,98 @@
+I, [2017-07-07T11:30:54.804998 #10368]  INFO -- default-ubuntu-1604: -----> Converging <default-ubuntu-1604>...
+I, [2017-07-07T11:30:54.835998 #10368]  INFO -- default-ubuntu-1604: Preparing files for transfer
+I, [2017-07-07T11:30:54.836998 #10368]  INFO -- default-ubuntu-1604: Preparing dna.json
+I, [2017-07-07T11:30:54.853498 #10368]  INFO -- default-ubuntu-1604: Resolving cookbook dependencies with Berkshelf 5.6.4...
+I, [2017-07-07T11:31:07.150998 #10368]  INFO -- default-ubuntu-1604: Removing non-cookbook files before transfer
+I, [2017-07-07T11:31:07.262498 #10368]  INFO -- default-ubuntu-1604: Preparing validation.pem
+I, [2017-07-07T11:31:07.290498 #10368]  INFO -- default-ubuntu-1604: Preparing client.rb
+I, [2017-07-07T11:31:08.184998 #10368]  INFO -- default-ubuntu-1604: -----> Chef Omnibus installation detected (install only if missing)
+I, [2017-07-07T11:31:08.241998 #10368]  INFO -- default-ubuntu-1604: Transferring files to <default-ubuntu-1604>
+I, [2017-07-07T11:31:10.472998 #10368]  INFO -- default-ubuntu-1604: Starting Chef Client, version 13.2.20
+I, [2017-07-07T11:31:11.834498 #10368]  INFO -- default-ubuntu-1604: resolving cookbooks for run list: ["filebeat_cookbook_v2::default"]
+I, [2017-07-07T11:31:11.854998 #10368]  INFO -- default-ubuntu-1604: Synchronizing Cookbooks:
+I, [2017-07-07T11:31:11.855998 #10368]  INFO -- default-ubuntu-1604:   - filebeat_cookbook_v2 (0.1.0)
+I, [2017-07-07T11:31:11.856998 #10368]  INFO -- default-ubuntu-1604: Installing Cookbook Gems:
+I, [2017-07-07T11:31:11.859998 #10368]  INFO -- default-ubuntu-1604: Compiling Cookbooks...
+I, [2017-07-07T11:31:11.862498 #10368]  INFO -- default-ubuntu-1604: 
+I, [2017-07-07T11:31:11.866998 #10368]  INFO -- default-ubuntu-1604: ================================================================================
+I, [2017-07-07T11:31:11.869998 #10368]  INFO -- default-ubuntu-1604: Recipe Compile Error in /tmp/kitchen/cache/cookbooks/filebeat_cookbook_v2/attributes/.kitchen/logs/kitchen.log
+I, [2017-07-07T11:31:11.880998 #10368]  INFO -- default-ubuntu-1604: ================================================================================
+I, [2017-07-07T11:31:11.886498 #10368]  INFO -- default-ubuntu-1604: 
+I, [2017-07-07T11:31:11.888998 #10368]  INFO -- default-ubuntu-1604: Chef::Exceptions::AttributeNotFound
+I, [2017-07-07T11:31:11.891498 #10368]  INFO -- default-ubuntu-1604: -----------------------------------
+I, [2017-07-07T11:31:11.895498 #10368]  INFO -- default-ubuntu-1604: could not find filename for attribute kitchen.log in cookbook filebeat_cookbook_v2
+I, [2017-07-07T11:31:11.900998 #10368]  INFO -- default-ubuntu-1604: 
+I, [2017-07-07T11:31:11.904498 #10368]  INFO -- default-ubuntu-1604: System Info:
+I, [2017-07-07T11:31:11.906498 #10368]  INFO -- default-ubuntu-1604: ------------
+I, [2017-07-07T11:31:11.908998 #10368]  INFO -- default-ubuntu-1604: chef_version=13.2.20
+I, [2017-07-07T11:31:11.911998 #10368]  INFO -- default-ubuntu-1604: platform=ubuntu
+I, [2017-07-07T11:31:11.919998 #10368]  INFO -- default-ubuntu-1604: platform_version=16.04
+I, [2017-07-07T11:31:11.922498 #10368]  INFO -- default-ubuntu-1604: ruby=ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
+I, [2017-07-07T11:31:11.924498 #10368]  INFO -- default-ubuntu-1604: program_name=chef-client worker: ppid=3576;start=06:01:10;
+I, [2017-07-07T11:31:11.924498 #10368]  INFO -- default-ubuntu-1604: executable=/opt/chef/bin/chef-client
+I, [2017-07-07T11:31:11.924498 #10368]  INFO -- default-ubuntu-1604: 
+I, [2017-07-07T11:31:11.924498 #10368]  INFO -- default-ubuntu-1604: 
+I, [2017-07-07T11:31:11.924998 #10368]  INFO -- default-ubuntu-1604: Running handlers:
+I, [2017-07-07T11:31:11.924998 #10368]  INFO -- default-ubuntu-1604: [2017-07-07T06:01:11+00:00] ERROR: Running exception handlers
+I, [2017-07-07T11:31:11.924998 #10368]  INFO -- default-ubuntu-1604: [2017-07-07T06:01:11+00:00] ERROR: Running exception handlers
+I, [2017-07-07T11:31:11.924998 #10368]  INFO -- default-ubuntu-1604: Running handlers complete
+I, [2017-07-07T11:31:11.924998 #10368]  INFO -- default-ubuntu-1604: [2017-07-07T06:01:11+00:00] ERROR: Exception handlers complete
+I, [2017-07-07T11:31:11.924998 #10368]  INFO -- default-ubuntu-1604: [2017-07-07T06:01:11+00:00] ERROR: Exception handlers complete
+I, [2017-07-07T11:31:11.924998 #10368]  INFO -- default-ubuntu-1604: Chef Client failed. 0 resources updated in 01 seconds
+I, [2017-07-07T11:31:11.924998 #10368]  INFO -- default-ubuntu-1604: [2017-07-07T06:01:11+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2017-07-07T11:31:11.925498 #10368]  INFO -- default-ubuntu-1604: [2017-07-07T06:01:11+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2017-07-07T11:31:11.925498 #10368]  INFO -- default-ubuntu-1604: [2017-07-07T06:01:11+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2017-07-07T11:31:11.925498 #10368]  INFO -- default-ubuntu-1604: [2017-07-07T06:01:11+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2017-07-07T11:31:11.925498 #10368]  INFO -- default-ubuntu-1604: [2017-07-07T06:01:11+00:00] ERROR: could not find filename for attribute kitchen.log in cookbook filebeat_cookbook_v2
+I, [2017-07-07T11:31:11.925498 #10368]  INFO -- default-ubuntu-1604: [2017-07-07T06:01:11+00:00] ERROR: could not find filename for attribute kitchen.log in cookbook filebeat_cookbook_v2
+I, [2017-07-07T11:31:11.990998 #10368]  INFO -- default-ubuntu-1604: [2017-07-07T06:01:11+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+I, [2017-07-07T11:31:11.995498 #10368]  INFO -- default-ubuntu-1604: [2017-07-07T06:01:11+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2017-07-07T11:31:12.088998 #10368] ERROR -- default-ubuntu-1604: Converge failed on instance <default-ubuntu-1604>.
+E, [2017-07-07T11:31:12.088998 #10368] ERROR -- default-ubuntu-1604: ------Exception-------
+E, [2017-07-07T11:31:12.088998 #10368] ERROR -- default-ubuntu-1604: Class: Kitchen::ActionFailed
+E, [2017-07-07T11:31:12.088998 #10368] ERROR -- default-ubuntu-1604: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2017-07-07T11:31:12.089498 #10368] ERROR -- default-ubuntu-1604: ----------------------
+E, [2017-07-07T11:31:12.089498 #10368] ERROR -- default-ubuntu-1604: ------Backtrace-------
+E, [2017-07-07T11:31:12.089498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2017-07-07T11:31:12.089498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2017-07-07T11:31:12.089498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:384:in `block in converge_action'
+E, [2017-07-07T11:31:12.089498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:527:in `synchronize_or_call'
+E, [2017-07-07T11:31:12.089498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:489:in `block in action'
+E, [2017-07-07T11:31:12.089498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-07-07T11:31:12.089998 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:488:in `action'
+E, [2017-07-07T11:31:12.089998 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:380:in `converge_action'
+E, [2017-07-07T11:31:12.089998 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:359:in `block in transition_to'
+E, [2017-07-07T11:31:12.089998 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `each'
+E, [2017-07-07T11:31:12.089998 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `transition_to'
+E, [2017-07-07T11:31:12.089998 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:157:in `verify'
+E, [2017-07-07T11:31:12.089998 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-07-07T11:31:12.089998 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-07-07T11:31:12.089998 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-07-07T11:31:12.089998 #10368] ERROR -- default-ubuntu-1604: ----End Backtrace-----
+E, [2017-07-07T11:31:12.089998 #10368] ERROR -- default-ubuntu-1604: ---Nested Exception---
+E, [2017-07-07T11:31:12.089998 #10368] ERROR -- default-ubuntu-1604: Class: Kitchen::Transport::SshFailed
+E, [2017-07-07T11:31:12.090498 #10368] ERROR -- default-ubuntu-1604: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2017-07-07T11:31:12.090498 #10368] ERROR -- default-ubuntu-1604: ----------------------
+E, [2017-07-07T11:31:12.090498 #10368] ERROR -- default-ubuntu-1604: ------Backtrace-------
+E, [2017-07-07T11:31:12.090498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2017-07-07T11:31:12.090498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2017-07-07T11:31:12.090498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:384:in `block in converge_action'
+E, [2017-07-07T11:31:12.090498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:527:in `synchronize_or_call'
+E, [2017-07-07T11:31:12.090498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:489:in `block in action'
+E, [2017-07-07T11:31:12.090498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-07-07T11:31:12.090498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:488:in `action'
+E, [2017-07-07T11:31:12.090498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:380:in `converge_action'
+E, [2017-07-07T11:31:12.090498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:359:in `block in transition_to'
+E, [2017-07-07T11:31:12.090498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `each'
+E, [2017-07-07T11:31:12.090498 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `transition_to'
+E, [2017-07-07T11:31:12.090998 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:157:in `verify'
+E, [2017-07-07T11:31:12.090998 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-07-07T11:31:12.090998 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-07-07T11:31:12.090998 #10368] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-07-07T11:31:12.090998 #10368] ERROR -- default-ubuntu-1604: ----End Backtrace-----

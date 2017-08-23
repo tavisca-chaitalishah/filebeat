@@ -1,0 +1,24 @@
+---
+driver:
+  name: ec2
+  region: us-east-1
+  aws_ssh_key_id: P-QA-KeyPair
+  availability_zone: us-east-1a
+  subnet_id: subnet-87ab34dd
+  security_group_ids: ["sg-f2adac83"]
+  associate_public_ip: false
+  vpc_mode: true
+  vpc: vpc-c7533bbe
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: ubuntu-14.04
+transport:
+  ssh_key: ~/.ssh/P-QA-KeyPair.pem
+suites:
+  - name: default
+    run_list:
+      - recipe[filebeat_cookbook_v2::default]
+    attributes:

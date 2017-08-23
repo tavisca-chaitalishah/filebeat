@@ -1,0 +1,7 @@
+---
+hostname: 127.0.0.1
+port: '2203'
+username: vagrant
+ssh_key: D:/new_work/chef-repo/cookbooks/filebeat_cookbook_v2/.kitchen/kitchen-vagrant/kitchen-filebeat_cookbook_v2-default-ubuntu-1404/.vagrant/machines/default/virtualbox/private_key
+last_action: verify
+last_error: 

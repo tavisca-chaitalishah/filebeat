@@ -1,0 +1,13 @@
+#=========================== Source =============================
+
+
+filebeat.prospectors:
+
+- input_type: log
+  paths:
+    - <%= @source %>
+#-------------------------- Sink ------------------------------
+output.elasticsearch:
+  # Array of hosts to connect to.
+  hosts: ['<%= @sink%>']
+  index: '<%= @index %>'

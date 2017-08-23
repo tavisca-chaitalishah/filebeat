@@ -1,0 +1,3 @@
+I, [2017-07-07T14:56:29.746998 #12216]  INFO -- default-ubuntu-1404: -----> Verifying <default-ubuntu-1404>...
+I, [2017-07-07T14:56:30.314498 #12216]  INFO -- default-ubuntu-1404: Loaded tests from {:path=>"D:/new_work/chef-repo/cookbooks/filebeat_cookbook_v2/test/integration/default"} 
+I, [2017-07-07T14:56:30.580998 #12216]  INFO -- default-ubuntu-1404: Finished verifying <default-ubuntu-1404> (0m0.83s).
