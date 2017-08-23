@@ -28,8 +28,10 @@ not_if {::File.exist?("#{node['filebeat']['windows']['source_dir']}\\filebeat-#{
 end
 
 #install filebeat Service
-powershell_script 'install-service-filebeat' do
-command "#{node['filebeat']['windows']['source_dir']}\\filebeat-#{node['filebeat']['version']}-windows-x86_64\\install-service-filebeat.ps1"
+bash 'install-service-filebeat' do
+code <<-EOH
+"#{node['filebeat']['windows']['source_dir']}\\filebeat-#{node['filebeat']['version']}-windows-x86_64\\install-service-filebeat.ps1"
+EOH
 end
 
 #Template to Replace
