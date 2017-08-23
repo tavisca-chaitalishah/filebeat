@@ -18,7 +18,7 @@ describe 'filebeat::windows' do
 	end
 	
 	it 'run powershell_script to install filebeat as service' do
-      expect(chef_run).to run_powershell_script("#{ENV['SYSTEMDRIVE']}\\Program Files\\filebeat-5.4.3-windows-x86_64\\install-service-filebeat.ps1")
+      expect(chef_run).to run_bash('install-service-filebeat')
     end
 	
 	
