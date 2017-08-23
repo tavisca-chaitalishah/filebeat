@@ -1,7 +1,0 @@
-DEPENDENCIES
-  filebeat_cookbook_v2
-    path: .
-    metadata: true
-
-GRAPH
-  filebeat_cookbook_v2 (0.1.0)
