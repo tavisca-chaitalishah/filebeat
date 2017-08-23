@@ -1,0 +1,11 @@
+--- 
+filebeat.modules: ~
+filebeat.prospectors: 
+  - 
+    input_type: log
+    paths: 
+      - '<%= @source %>'
+output.elasticsearch: 
+  hosts: 
+    - "<%= node['filebeat']['elasticsearch']['endpoint'] %>"
+  index: <%= node['filebeat']['elasticsearch']['index']%>
