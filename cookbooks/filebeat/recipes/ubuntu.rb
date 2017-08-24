@@ -31,7 +31,7 @@ end
 template node['filebeat']['ubuntu']['source_dir']+'/filebeat.yml' do
 source 'filebeat.yml.erb'
 variables({
-	source => node['filebeat']['ubuntu']['log_file_source']
+	source: node['filebeat']['ubuntu']['log_file_source']
 })
 end
 
