@@ -37,6 +37,6 @@ end
 
 #Starts Filebeat Service
 service 'filebeat' do
-start_command 'sudo /etc/init.d/ ./filebeat start'
+start_command 'sudo /etc/init.d/./filebeat start'
 action :start
 end
